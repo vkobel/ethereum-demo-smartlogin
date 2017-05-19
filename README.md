@@ -16,7 +16,7 @@ The **SmartLogin** folder is a [truffle](http://truffleframework.com/) project c
 The **web-ui** folder is a pure HTML/CSS/JS application using [web3](https://github.com/ethereum/web3.js) and some [ethereumJS](https://github.com/ethereumjs) libs: ethereumjs-wallet to handle a simple in-browser wallet and ethereumjs-tx to sign transactions in the browser.
 
 ## Get it running
-First step is to run a local Ethereum node you can interact with, you can use a testnet or [testrpc](https://github.com/ethereumjs/testrpc) to quickly get it running. The below example assume you have a node running at localhost:8545. 
+First step is to run a local Ethereum node you can interact with, you can use a testnet or [testrpc](https://github.com/ethereumjs/testrpc) to quickly get it running. The below example assume you have a node running at localhost:8545. Then `npm install` inside the SmartLogin folder to fetch its dependencies.
 
 Next, from the SmartLogin directory, run a truffle console and deploy the contract on the blockchain:
 ```
