@@ -1,0 +1,15 @@
+{
+  "name": "smartlogin-exec",
+  "version": "0.1.0",
+  "description": "Simple SmartLogin listener that executes a command passed as a realm",
+  "scripts": {
+    "app": "node app.js"
+  },
+  "author": "Vincent Kobel",
+  "license": "MIT",
+  "dependencies": {
+    "json-loader": "^0.5.4",
+    "truffle-contract": "^1.1.6",
+    "web3": "^0.18.2"
+  }
+}
